@@ -5,4 +5,11 @@
   --color-PrimaryGray: #B2B2B2;
   --color-PrimaryWhiteGray: #D2D2D2;
   --color-PrimaryWhite: #f9fafb;
+  --color-PrimaryShadowWhite: #f2f2f2;
+}
+
+.no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
